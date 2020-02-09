@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/add.css">
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Short+Stack&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/495ff72d66.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Montserrat|Oswald|Raleway|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    <title>Add employee</title>
+</head>
+<body>
+    
+    <br>
+    
+    <p class="container" style="font-family: 'Roboto Mono'; font-size: 25px;">Basic details :</p>
+
+    <div class="container">
+        <form action="./action.php" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Employee ID:</label>
+                <input type="text" class="form-control" name="eid" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Employee Name:</label>
+                <input type="username" class="form-control" name="empname" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Date of birth</label>
+                <input type="date" class="form-control" name="dob" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Date of joining</label>
+                <input type="date" class="form-control" name="doj" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">city</label>
+                <input type="text" class="form-control" name="city" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            
+
+            <p class="edu" > Educational information :</p>   
+            
+            <div class="form-group">
+                <label for="exampleInputEmail1">University/college</label>
+                <input type="text" class="form-control" name="college" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Degree</label>
+                <input type="text" class="form-control" name="degree" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">CGPA</label>
+                <input type="text" class="form-control" name="cgpa" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+
+                <input class="btn btn-outline-success btn-block" type="submit" value="submit">
+                <hr>
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
